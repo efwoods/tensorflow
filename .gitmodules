@@ -7,3 +7,6 @@
 [submodule "tfjs"]
 	path = tfjs
 	url = https://github.com/efwoods/tfjs.git
+[submodule "tf-cert"]
+	path = tf-cert
+	url = https://github.com/efwoods/tf-cert.git
