@@ -31,12 +31,24 @@
 </template>
 
 <script>
+
+      
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  created() {
+
+  },
+  data(){
+    return {}
+  },
+  method() {
+
+    }
   }
-}
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

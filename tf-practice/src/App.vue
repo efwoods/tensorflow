@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+<HomeVue></HomeVue>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+// import HelloWorld from './components/HelloWorld.vue'
+import HomeVue from '@/views/HomeVue.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HomeVue
+    // HelloWorld
+  },
+  created() {
+        console.log("Hello from Tensorflow");
   }
 }
 </script>
